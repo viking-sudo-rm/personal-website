@@ -22,8 +22,8 @@ date_format = "Jan 2006"
   company = "Google"
   company_url = "https://www.google.com/"
   location = "New York, NY"
-  date_start = "2017-05-21"
-  date_end = "2017-08-17"
+  date_start = "2018-05-21"
+  date_end = "2018-08-17"
   description = ""
 
 [[experience]]
