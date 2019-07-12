@@ -1,5 +1,5 @@
 ---
-title: "Context-Free Transductions with Neural Stacks"
+title: "Context-free Transductions with Neural Stacks"
 authors:
 - Yiding Hao
 - admin
