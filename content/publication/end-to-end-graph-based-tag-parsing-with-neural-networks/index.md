@@ -1,5 +1,5 @@
 ---
-title: "End-to-end Graph-based TAG Parsing with Neural Networks"
+title: "End-to-End Graph-Based TAG Parsing with Neural Networks"
 authors:
 - Jungo Kasai
 - Robert Frank
