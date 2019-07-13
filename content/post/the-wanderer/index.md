@@ -216,7 +216,7 @@ Now stands as a trace of
 the dear warband  
 a wonderously high wall,  
 snakingly woven.  
-The warriors habe been snatched away  
+The warriors have been snatched away  
 by the honor of spears,  
 slaughter-seeking weapons,  
 that famous fate,  
