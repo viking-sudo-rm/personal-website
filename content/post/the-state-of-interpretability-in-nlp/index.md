@@ -25,8 +25,7 @@ image:
 projects: []
 ---
 
-
-It's been a couple days since the end of ACL, so I thought it might be an appropriate time to write down some of my thoughts from the conference. After spending most of the summer thinking about things besides neural networks, I was abruptly thrown back into things upon arriving in Florence. I spent a lot of my downtime with friends from Yale that I was staying with. On the other hand, I also met my future colleagues at AI2 and many other young researchers who are interested in similar issues of the interpretability and formal analysis of neural networks. In this way, the conference felt like a soft threshold between old and new.
+This post is a summary of my thoughts and experiences at ACL 2019, focused around the theme of interpretability. After spending most of the summer thinking about things besides neural networks, I was abruptly thrown back into things upon arriving in Florence. I spent a lot of my downtime with friends from Yale that I was staying with. On the other hand, I also met my future colleagues at AI2 and many other young researchers who are interested in similar issues of the interpretability and formal analysis of neural networks. In this way, the conference felt like a soft threshold between old and new.
 
 There were plenty of exciting things going on at the main conference, from work on incorporated graph representations into transformers to the development of more energy-efficient non-autoregressive NLP models. In this post, though, I'm going to focus on parts that I was most directly involved in, which were the Blackbox NLP workshop on interpretability and the Deep Learning and Formal Languages (DELFOL) workshop.
 
