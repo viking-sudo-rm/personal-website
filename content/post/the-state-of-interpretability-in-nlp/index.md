@@ -75,7 +75,7 @@ DELFOL was the venue for formal work at ACL 2019. Given its somewhat esoteric to
 
 On the empirical front, [Suzgun et al.](https://arxiv.org/abs/1906.03648) reported that LSTMs generalizably learn to model the 1-Dyck language, which consists of parenthetic expressions with one type of parentheses. Other types of RNNs, on the other hand, were not able to do this. Additionally, LSTMs could not model 2-Dyck, but could model independently mixed versions of 1-Dyck.
 
-Since 1-Dyck is a counter language, this is further evidence that LSTMs can count, unlike other kinds of RNNs. Additionally, since 2-Dyck is a context-free language that requires more memory than is available to counter machines, we have further experimental evidence that LSTM memory, like counter machine memory, is not sufficient for complex hierarchical representations. As [Bob Frank](https://bobfrank1.github.io/) summarized in his invited talk at DELFOL, LSTMs also struggle to do other memory intensive context-free things, like counting.
+Since 1-Dyck is a counter language, this is further evidence that LSTMs can count, unlike other kinds of RNNs. Additionally, since 2-Dyck is a context-free language that requires more memory than is available to counter machines, we have further experimental evidence that LSTM memory, like counter machine memory, is not sufficient for complex hierarchical representations. As [Bob Frank](https://bobfrank1.github.io/) summarized in his invited talk at DELFOL, LSTMs also struggle to do other memory intensive context-free things, like reversing strings.
 
 While [my paper](https://arxiv.org/abs/1906.01615) at DELFOL was mostly theoretical results, I also had some experimental stuff that agreed with these conclusions.
 
