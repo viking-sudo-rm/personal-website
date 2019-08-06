@@ -51,7 +51,7 @@ Formally, RSA is a method of computing the similarity between two representation
 
 To get an overall measure of similarity, we compute a similar matrices $M(X)$ and $M(Y)$ where
 
-$$ M(X){ij} = d_X(x_i, x_j) $$
+$$ M(X)_{ij} = d_X(x_i, x_j) $$
 
 and analogously for $Y$. Once we have these matrices, we compute an overall measure of similarity by taking the correlation between them. I find RSA to be a quite exciting method for future research, as it avoids some of the pitfalls of probing while also being very easy (perhaps easier than probing) to implement. This is not to say that probing should be abandoned completely, as being able to verify the same results with different methods increases their confidence. I recall hearing a talk at ACL in which RSA was already applied to transformer representations and replicated probing findings, although I unfortunately cannot find the paper which reported this.
 
