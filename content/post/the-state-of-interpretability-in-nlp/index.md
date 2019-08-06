@@ -65,7 +65,7 @@ Finally, as many people expressed during the conference, I think that a good goa
 
 # DELFOL
 
-Enter DELFOL, the venue for formal work at ACL 2019. Given its somewhat esoteric topic, this workshop was quite small, but I found it really exciting. To me, the following three questions captured a lot of the work that people were presenting:
+DELFOL was the venue for formal work at ACL 2019. Given its somewhat esoteric topic, this workshop was quite small, but I found it really exciting. To me, the following three questions captured a lot of the work that people were presenting:
 
 1. Assess the learnable capacity of neural network models using empirical studies
 2. Identify formal properties of neural architectures that lead to different kinds of inductive bias or learnable/representational capacity
