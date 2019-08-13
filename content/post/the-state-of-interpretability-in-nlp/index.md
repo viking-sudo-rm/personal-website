@@ -25,8 +25,7 @@ image:
 projects: []
 ---
 
-
-It's been a couple days since the end of ACL, so I thought it might be an appropriate time to write down some of my thoughts from the conference. After spending most of the summer thinking about things besides neural networks, I was abruptly thrown back into things upon arriving in Florence. I spent a lot of my downtime with friends from Yale that I was staying with. On the other hand, I also met my future colleagues at AI2 and many other young researchers who are interested in similar issues of the interpretability and formal analysis of neural networks. In this way, the conference felt like a soft threshold between old and new.
+This post is a summary of my thoughts and experiences at ACL 2019, focused around the theme of interpretability. After spending most of the summer thinking about things besides neural networks, I was abruptly thrown back into things upon arriving in Florence. I spent a lot of my downtime with friends from Yale that I was staying with. On the other hand, I also met my future colleagues at AI2 and many other young researchers who are interested in similar issues of the interpretability and formal analysis of neural networks. In this way, the conference felt like a soft threshold between old and new.
 
 There were plenty of exciting things going on at the main conference, from work on incorporated graph representations into transformers to the development of more energy-efficient non-autoregressive NLP models. In this post, though, I'm going to focus on parts that I was most directly involved in, which were the Blackbox NLP workshop on interpretability and the Deep Learning and Formal Languages (DELFOL) workshop.
 
@@ -52,17 +51,21 @@ Formally, RSA is a method of computing the similarity between two representation
 
 To get an overall measure of similarity, we compute a similar matrices $M(X)$ and $M(Y)$ where
 
-\[ M(X){ij} = d_X(x_i, x_j) \]
+$$ M(X)_{ij} = d_X(x_i, x_j) $$
 
 and analogously for $Y$. Once we have these matrices, we compute an overall measure of similarity by taking the correlation between them. I find RSA to be a quite exciting method for future research, as it avoids some of the pitfalls of probing while also being very easy (perhaps easier than probing) to implement. This is not to say that probing should be abandoned completely, as being able to verify the same results with different methods increases their confidence. I recall hearing a talk at ACL in which RSA was already applied to transformer representations and replicated probing findings, although I unfortunately cannot find the paper which reported this.
 
 ## Conclusion
 
-Probing and RSA are two good methods for understanding what information is encoded in some representation within a trained network. This is still a slightly different question than asking what information is particular relevant for the decision that a network makes given some input, which can be addressed using gradient methods or perturbation studies. I think that interpreting representations and interpreting decisions are both interesting questions. Additionally, both of these questions have analogs in the formal domain, where we can analyze what representations different neural network hidden states can encode, or what classes of formal languages a certain architecture can accept. As others at ACL also mentioned, I would like to see future work connecting empirical interpretability research to the formal analysis that has been done.
+Probing and RSA are two good methods for understanding what information is encoded in some representation within a trained network. This is still a slightly different question than asking what information is particular relevant for the decision that a network makes given some input, which can be addressed using gradient methods or perturbation studies. I think that interpreting representations and interpreting decisions are both interesting questions.
+
+Additionally, both of these questions have analogs in the formal domain, where we can analyze what representations different neural network hidden states can encode, or what classes of formal languages a certain architecture can accept. As others at ACL also mentioned, I would like to see future work connecting empirical interpretability research to the formal analysis that has been done.
+
+Finally, as many people expressed during the conference, I think that a good goal for the next year is progress towards constructive interpretability work. In other words, our interpretation of networks should allow us to make smarter architectures.
 
 # DELFOL
 
-Enter DELFOL, the venue for formal work at ACL 2019. Given its somewhat esoteric topic, this workshop was quite small, but I found it really exciting. To me, the following three questions captured a lot of the work that people were presenting:
+DELFOL was the venue for formal work at ACL 2019. Given its somewhat esoteric topic, this workshop was quite small, but I found it really exciting. To me, the following three questions captured a lot of the work that people were presenting:
 
 1. Assess the learnable capacity of neural network models using empirical studies
 2. Identify formal properties of neural architectures that lead to different kinds of inductive bias or learnable/representational capacity
@@ -72,7 +75,7 @@ Enter DELFOL, the venue for formal work at ACL 2019. Given its somewhat esoteric
 
 On the empirical front, [Suzgun et al.](https://arxiv.org/abs/1906.03648) reported that LSTMs generalizably learn to model the 1-Dyck language, which consists of parenthetic expressions with one type of parentheses. Other types of RNNs, on the other hand, were not able to do this. Additionally, LSTMs could not model 2-Dyck, but could model independently mixed versions of 1-Dyck.
 
-Since 1-Dyck is a counter language, this is further evidence that LSTMs can count, unlike other kinds of RNNs. Additionally, since 2-Dyck is a context-free language that requires more memory than is available to counter machines, we have further experimental evidence that LSTM memory, like counter machine memory, is not sufficient for complex hierarchical representations. As [Bob Frank](https://bobfrank1.github.io/) summarized in his invited talk at DELFOL, LSTMs also struggle to do other memory intensive context-free things, like counting.
+Since 1-Dyck is a counter language, this is further evidence that LSTMs can count, unlike other kinds of RNNs. Additionally, since 2-Dyck is a context-free language that requires more memory than is available to counter machines, we have further experimental evidence that LSTM memory, like counter machine memory, is not sufficient for complex hierarchical representations. As [Bob Frank](https://bobfrank1.github.io/) summarized in his invited talk at DELFOL, LSTMs also struggle to do other memory intensive context-free things, like reversing strings.
 
 While [my paper](https://arxiv.org/abs/1906.01615) at DELFOL was mostly theoretical results, I also had some experimental stuff that agreed with these conclusions.
 
