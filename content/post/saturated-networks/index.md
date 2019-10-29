@@ -35,7 +35,7 @@ A neural network is a function $f(x, \theta)$ that is almost-everywhere differen
 
 $$ f'(x, \theta) = \lim_{N \rightarrow \infty} f(x, N\theta) . $$
 
-We define $f'$ over the domain of $(x, \theta)$ for which the limit above exists. Since $f$ is almost-everwhere differentiable, the set of points excluded from the domain is measure-zero.
+We define $f'$ over the domain of $(x, \theta)$ for which the limit above exists.
 
 In a neural network, the effect of this transformation is to discretize all of the activations. For example, consider a neuron:
 
