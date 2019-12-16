@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Resident
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
@@ -62,7 +62,7 @@ user_groups:
 - Visitors
 ---
 
-<p>I am an incoming research resident on the <a href="https://allennlp.org/">AllenNLP</a> team at <a href="https://allenai.org/">AI2</a>. I recently graduated from Yale, where my <a href="/publication/sequential-neural-networks-as-automata/">thesis</a> was advised by <a href="https://bobfrank1.github.io/">Bob Frank</a> and <a href="https://cpsc.yale.edu/people/dana-angluin">Dana Angluin</a>.
+<p>I work on the <a href="https://allennlp.org/">AllenNLP</a> team at <a href="https://allenai.org/">AI2</a>. I recently graduated from Yale, where my <a href="/publication/sequential-neural-networks-as-automata/">thesis</a> was advised by <a href="https://bobfrank1.github.io/">Bob Frank</a> and <a href="https://cpsc.yale.edu/people/dana-angluin">Dana Angluin</a>.
 </p>
 
-<p>My research interests lie at the intersection of language and computation. In particular, my recent work has developed theory to understand NLP deep learning models. I am also interested in the practical potential of NLP for medical discoveries, studying language change, and many other applications.</p>
+<p>My research interests lie at the intersection of language and computation. In particular, my recent work has developed theory to understand NLP deep learning models. I am interested in how AI systems represent the structure and meaning of language, and how we can improve current representations to enable deeper language understanding.</p>
