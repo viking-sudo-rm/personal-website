@@ -41,7 +41,7 @@ We present new results characterizing models in terms of these properties. For e
 
 ## Language Expressiveness
 
-Once we have derived these characterizations, we use them to demonstrate formal languages that formally separate the capacities of different RNNs. We add a 1 or 2-layer feedforward "pooler" after the final RNN state and view this full model as a language acceptor. Here are some of the results in this vein, stated more formally. Let $D_k$ denote the capacity of an RNN with a $k$-layer pooler, and let s-$X$ denote the saturated version of architecture $X$.
+Once we have derived these characterizations, we use them to demonstrate formal languages that separate the capacities of different RNNs. We add a 1 or 2-layer feedforward "pooler" after the final RNN state and view this full model as a language acceptor. Here are some of the results in this vein, stated more formally. Let $D_k$ denote the capacity of an RNN with a $k$-layer pooler, and let s-$X$ denote the saturated version of architecture $X$.
 
 $$ a^nb^n \in D_1(\textrm{s-LSTM}) $$
 $$ a^nb^n \not\in D_1(\textrm{s-QRNN}) $$
@@ -57,9 +57,9 @@ $$ a^nb^n \in D_2(\textrm{s-QRNN}) $$
 Adding a second linear layer (or using two s-QRNN layers) allows us to recognize $a^nb^n$ with an s-QRNN. Does this mean the hierarchy dissolves as the pooler is strengthened?
 
 $$ a^nb^n\Sigma^* \in D_1(\textrm{s-LSTM}) $$
-$$ a^nb^n\Sigma^* \not\in D(\textrm{s-QRNN}) \textrm{for any $D$} $$
+$$ a^nb^n\Sigma^* \not\in D(\textrm{s-QRNN}) \; \textrm{for any $D$} $$
 
-No, the hierarchy continues, even for stronger decoders. We provide a simple extension of $a^nb^n$ that can be recognized by an s-LSTM with a 1-layer pooler, but can never be recognized by an s-QRNN, no matter how many layers the pooler has. We dub the technique used to prove this the *suffix attack*. It exploits the fact that the QRNN (compared to the LSTM) is fundamentally unable to detect when its state has reached an accepting configuration--thus, it cannot "stop" updating when the strings are padded with an arbitrary suffix. Since this is a general property, it can be directly adapted to other formal languages.
+No, the hierarchy persists, even for stronger decoders. We provide a simple extension of $a^nb^n$ that can be recognized by an s-LSTM with a 1-layer pooler, but can never be recognized by an s-QRNN, no matter how many layers the pooler has. We dub the technique used to prove this the *suffix attack*. It exploits the fact that the QRNN (compared to the LSTM) is fundamentally unable to detect when its state has reached an accepting configuration--thus, it cannot "stop" updating when the strings are padded with an arbitrary suffix. Since this is a general property, it can be directly adapted to other formal languages.
 
 ## Experiments
 
