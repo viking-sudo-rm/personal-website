@@ -33,7 +33,7 @@ Understanding the practical capacity of neural network architectures is an impor
 
 Over the last year or two, several works have addressed this by relating deep NLP architectures like RNNs to existing formal models in automata theory. [Weiss et al. (2018)](https://arxiv.org/abs/1805.04908) showed a connection between LSTMs and counter machines (CMs), and demonstrated how LSTMs learn to count to solve certain formal tasks that other RNNs cannot solve. Building on this, [Merrill (2019)](https://arxiv.org/abs/1906.01615) formalized the notion of a saturated network (a finite-precision approximation of a continuous RNN) and related the capacity of different saturated RNNs to different classes of formal languages. [Peng et al. (2018)](https://arxiv.org/abs/1808.09357) explored RNN capacity along a different axis: whether or not their internal computation can be simulated by a weighted finite state machine (WFA).
 
-### The Hierarchy
+## The Hierarchy
 
 The goal of this paper is to unify these independent threads of research by further exploring the connection between formal models like saturated RNNs, CMs, and WFAs. We place all of these models into a two dimensional hierarchy defined by two formal properties: rational recurrence and space complexity. As defined by [Peng et al. (2019)](https://arxiv.org/abs/1808.09357), an RNN is *rationally recurrent* if its recurrent state can be computed by a WFA. *Space complexity*, related to the concept in analysis of algorithms, measures how much memory is available to a model.
 
