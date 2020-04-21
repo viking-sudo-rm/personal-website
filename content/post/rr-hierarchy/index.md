@@ -25,7 +25,7 @@ image:
 projects: []
 ---
 
-This post is about *A Formal Hierarchy of RNN Architectures*, which was joint work between myself, Gail Weiss, Yoav Goldberg, Roy Schwartz, Noah Smith, and Eran Yahav. Compared to the original paper, this post is more of a summary, and will attempt to explain the significance of the results assuming less familiarity with formal language theory.
+This post is about [*A Formal Hierarchy of RNN Architectures*](https://arxiv.org/abs/2004.08500), which was joint work between myself, Gail Weiss, Yoav Goldberg, Roy Schwartz, Noah Smith, and Eran Yahav. Compared to the original paper, this post is more of a summary, and will attempt to explain the significance of the results assuming less familiarity with formal language theory.
 
 ## Background
 
