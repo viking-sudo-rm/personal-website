@@ -18,7 +18,7 @@ organizations:
   url: "https://allenai.org/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests incorporate computational linguistics, theoretical computer science, and machine learning.
+bio: NLP, deep learning, and formal language theory
 
 interests:
 - Computational Linguistics

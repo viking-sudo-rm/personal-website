@@ -25,7 +25,7 @@ summary: I formally characterize the capacity and memory of various RNNs, given 
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 links:
 - name: "Full Thesis"
