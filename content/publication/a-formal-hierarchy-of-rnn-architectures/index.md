@@ -2,6 +2,11 @@
 title: "A Formal Hierarchy of RNN Architectures"
 authors:
 - admin
+- Gail Weiss
+- Yoav Goldberg
+- Roy Schwartz
+- Noah A. Smith
+- Eran Yahav
 date: "2020-07-06T00:00:00Z"
 doi: ""
 

@@ -1,7 +1,34 @@
 ---
 title: "CORD-19: The COVID-19 Open Research Dataset"
 authors:
+- Lucy Lu Wang
+- Kyle Lo
+- Yoganand Chandrasekhar
+- Russell Reas
+- Jiangjiang Yang
+- Doug Burdick
+- Darrin Eide
+- Kathryn Funk
+- Yannis Katsis
+- Rodney Kinney
+- Yunyao Li
+- Ziyang Liu
 - admin
+- Paul Mooney
+- Dewey Murdick
+- Devvret Rishi
+- Jerry Sheehan
+- Zhihong Shen
+- Brandon Stilson
+- Alex Wade
+- Kuansan Wang
+- Nancy Xin Ru Wang
+- Chris Wilhelm
+- Boya Xie
+- Douglas Raymond
+- Daniel S. Weld
+- Oren Etzioni
+- Sebastian Kohlmeier
 date: "2020-07-06T00:00:00Z"
 doi: ""
 
@@ -21,7 +48,7 @@ publication_short: In *NLP-COVID* 2019
 abstract: The Covid-19 Open Research Dataset (CORD-19) is a growing1 resource of scientific papers on Covid-19 and related historical coronavirus research. CORD-19 is designed to facilitate the development of text mining and information retrieval systems over its rich collection of metadata and structured full text papers. Since its release, CORD-19 has been downloaded over 75K times and has served as the basis of many Covid-19 text mining and discovery systems. In this article, we describe the mechanics of dataset construction, highlighting challenges and key design decisions, provide an overview of how CORD-19 has been used, and preview tools and upcoming shared tasks built around the dataset. We hope this resource will continue to bring together the computing community, biomedical experts, and policy makers in the search for effective treatments and management policies for Covid-19.
 
 # Summary. An optional shortened abstract.
-summary: I helped out a bit with this larger effort at AI2.
+summary: I helped out a bit with this large collaboration between AI2 and other institutions.
 
 tags:
 - Source Themes
