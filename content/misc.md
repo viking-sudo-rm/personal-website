@@ -10,15 +10,15 @@ header:
   image: ""
 ---
 
-[wɪl mɛɹl] ±ɛ/æ distinction
+[wɪl mɛɹəl] ±ɛ/æ distinction
 
-I like dead languages. I'm decent at Latin, Old Norse, and Old English.
+I like dead languages, particularly Latin, Old Norse, and Old English.
 <!-- Strangely enough, I took a class where we learned Proto Indo European. -->
-I've also dabbled in Middle Egyptian, and considering studying Nahuatl.
+I've also dabbled in Middle Egyptian, and am considering studying Nahuatl.
 
 I'm a big proponent of the urban walk. People in Seattle seem to prefer hiking, which is fun too I guess?
 
-I play pick-up basketball. I also play and have (amateurly) made video games. Check out my [YouTube channel](https://www.youtube.com/snorridevteam) from when I was 15 ¯\\\_(ツ)\_/¯
+I play pick-up basketball. I also play games like Dota 2 and Age of Empires II and have done some (amateur) game development. On a related note, check out my [YouTube channel](https://www.youtube.com/snorridevteam) from when I was 15 ¯\\\_(ツ)\_/¯
 
 Here's some random stuff that I've written over the years, in no particular order.
 
@@ -27,4 +27,4 @@ Here's some random stuff that I've written over the years, in no particular orde
 * [The history of Minecraft](https://www.packerintersections.com/the-history-of-minecraft-how-a-swedish-indie-game-came-to-dominate-the-world.html): how a Swedish indie game came to dominate the world
 * [Dante++](/files/dantepp.pdf): A chapter extending *Inferno* to the age of Big Data™ and AI
 
-*There's other stuff on my [blog](/post/).
+*There's more writing (including several translations) on my [blog](/post/).
