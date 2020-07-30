@@ -10,7 +10,8 @@ header:
   image: ""
 ---
 
-[wɪl mɛɹəl] ±ɛ/æ distinction
+Hi, I'm [wɪl mɛɹəl]. I'm originally from NYC, but I've been living in Seattle for about a year.
+<!-- ±ɛ/æ distinction -->
 
 I like dead languages, particularly Latin, Old Norse, and Old English.
 <!-- Strangely enough, I took a class where we learned Proto Indo European. -->
@@ -19,6 +20,11 @@ I've also dabbled in Middle Egyptian, and am considering studying Nahuatl.
 I'm a big proponent of the urban walk. People in Seattle seem to prefer hiking, which is fun too I guess?
 
 I play pick-up basketball. I also play games like Dota 2 and Age of Empires II and have done some (amateur) game development. On a related note, check out my [YouTube channel](https://www.youtube.com/snorridevteam) from when I was 15 ¯\\\_(ツ)\_/¯
+
+Other fun facts about me:
+
+* I make [pierogi](https://en.wikipedia.org/wiki/Pierogi)
+* I used to compete in table tennis
 
 Here's some random stuff that I've written over the years, in no particular order.
 
