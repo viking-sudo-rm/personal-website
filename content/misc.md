@@ -23,8 +23,9 @@ I play pick-up basketball. I also play games like Dota 2 and Age of Empires II a
 
 Other fun facts about me:
 
-* I make [pierogi](https://en.wikipedia.org/wiki/Pierogi)
-* I used to compete in table tennis
+* I am a definitively average cook, but (thanks to my grandma) I can make [pierogi](https://en.wikipedia.org/wiki/Pierogi).
+* I used to compete in table tennis.
+
 
 Here's some random stuff that I've written over the years, in no particular order.
 
