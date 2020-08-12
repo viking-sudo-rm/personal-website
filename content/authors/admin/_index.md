@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Researcher
+role: Researcher ([PYI](https://allenai.org/predoctoral-young-investigators))
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://allenai.org/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: NLP, deep learning, and formal language theory
+bio: NLP, deep learning, and formal languages
 
 interests:
 - Computational Linguistics
