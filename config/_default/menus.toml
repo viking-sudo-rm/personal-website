@@ -19,8 +19,8 @@
   weight = 50
 
 [[main]]
-  name = "Misc"
-  url = "/misc/"
+  name = "Personal"
+  url = "/personal/"
   weight = 90
 
 # Link to a PDF of your resume/CV from the menu.
