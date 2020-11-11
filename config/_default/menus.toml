@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Personal"
-  url = "/personal/"
+  url = "/personal/index.html"
   weight = 90
 
 # Link to a PDF of your resume/CV from the menu.
