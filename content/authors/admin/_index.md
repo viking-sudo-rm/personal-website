@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Researcher
+role: Researcher ([PYI](https://allenai.org/predoctoral-young-investigators))
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: "https://allenai.org/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests incorporate computational linguistics, theoretical computer science, and machine learning.
+bio: NLP, deep learning, and formal languages
 
 interests:
 - Computational Linguistics
@@ -53,7 +53,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "william.merrill@yale.edu"
+email: "willm@allenai.org"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  

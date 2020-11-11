@@ -18,7 +18,10 @@ publication_types: ["1"]
 publication: In *Toronto Undergraduate Linguistics Conference* 2018
 publication_short: In *TULCon* 2018
 
-abstract: We suggest a general semantic treatment of several subordinate clause types grounded in their syntactic similarity. Crucial to this framework is the choice to view syntactic trees as evaluatable objects that can be passed as meanings through the lambda calculus. Thus, the meaning of a subordinate clause is a pointer to a syntactic node whose denotation can be evaluated further along in the process of semantic composition. This analysis is sufficiently general to unify the semantic treatment of propositional attitude predicates, relative clauses, and control predicates without the need for exceptional rules like predicate abstraction. It can also be used to express a syncategorematic denotation for only.
+abstract: |
+  We suggest a general semantic treatment of several subordinate clause types grounded in their syntactic similarity. Crucial to this framework is the choice to view syntactic trees as evaluatable objects that can be passed as meanings through the lambda calculus. Thus, the meaning of a subordinate clause is a pointer to a syntactic node whose denotation can be evaluated further along in the process of semantic composition. This analysis is sufficiently general to unify the semantic treatment of propositional attitude predicates, relative clauses, and control predicates without the need for exceptional rules like predicate abstraction. It can also be used to express a syncategorematic denotation for only.
+  
+  Thanks to [Hadas Kotek](https://hkotek.com/) for advising me on this project, which was one of my earliest attempts at research!
 
 # Summary. An optional shortened abstract.
 summary: I propose a unified semantic treatment of several English subordinate clause types.
