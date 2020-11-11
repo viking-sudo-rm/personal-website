@@ -10,7 +10,7 @@ header:
   image: ""
 ---
 
-Hi, I'm [wɪl mɛɹəl]. I'm originally from NYC, but I moved to Seattle in September, 2019.
+Hi, I'm [wɪl mɛɹəl]. I'm originally from NYC, but I moved to Seattle in September, 2019. You can contact me at `willm[æt]allenai.org`.
 <!-- ±ɛ/æ distinction -->
 
 If I wasn't doing NLP, I'd probably be studying medieval history and dead languages, particularly Latin, Old Norse, and Old English.
