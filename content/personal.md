@@ -8,7 +8,10 @@ share: false
 header:
   caption: "Street snowboarding in Seattle."
   image: "board.jpg"
+  height: 100px
 ---
+
+<!-- <img src="/img/board.jpg" alt="Smiley face" style="float:right;width:200px;margin:50px;"> -->
 
 Hi, I'm [wɪl mɛɹəl]. I'm originally from NYC, but I moved to Seattle in September, 2019. You can contact me at `willm[æt]allenai.org`.
 <!-- ±ɛ/æ distinction -->
