@@ -6,8 +6,8 @@ share: false
 
 # Optional header image (relative to `static/img/` folder).
 header:
-  caption: ""
-  image: ""
+  caption: "Street snowboarding in Seattle."
+  image: "board.jpg"
 ---
 
 Hi, I'm [wɪl mɛɹəl]. I'm originally from NYC, but I moved to Seattle in September, 2019. You can contact me at `willm[æt]allenai.org`.
